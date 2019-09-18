@@ -31,7 +31,7 @@ Unlike the normalization of natural images, we normalize each spectrum of each i
 ## Test
 At the time of testing, we also first converted the image into a tfrecord file. When calculating PSNR, SSIM, SAM, and ERGAS, we used the same code as DHSIS（Deep Hyperspectral Image Sharpening）, here we thank the code provided by Renwei Dian.
 ## Results
- ![Image text](https://github.com/wwhapplife/Deep-Blind-Hyperspectral-Image-Fusion/raw/master/image_folder/CAVE.png)
+ ![Image text](https://github.com/wwhappylife/Deep-Blind-Hyperspectral-Image-Fusion/blob/master/image_folder/CAVE.png)
 ## Citation
 
 ## Acknowledgements
