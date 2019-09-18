@@ -6,7 +6,7 @@ Wu Wang, Weihong Zeng, Yue Huang, Xinghao Ding and John Paisley, "Deep Blind Hyp
 
 The code is built on Tensorflow and tested on Ubuntu 14.04/16.04 environment (Python3.6, CUDA8.0, cuDNN5.1) with 1080Ti GPUs.
 
-##Introduction
+## Introduction
 
 Hyperspectral image fusion (HIF) reconstructs high spatial
 resolution hyperspectral images from low spatial resolution
@@ -25,14 +25,14 @@ public datasets, the experimental results demonstrate that
 the proposed algorithm outperforms existing blind and nonblind
 methods.
 
-##Train
+## Train
 For the CAVE dataset, we first convert the image to .mat format, and then generate the tfrecord file, which can improve the data reading speed. For the CAVE, Harvard, and NTR2018 data sets, we split the image into 64×64 image blocks without any data augmentation.
 Unlike the normalization of natural images, we normalize each spectrum of each image to 0 to 1, because some spectral values are very close.
-##Test
+## Test
 In the test, we used the same code as DHSIS, here we thank the code provided by Li Shutao and others.
-##Results
+## Results
 
-##Citation
+## Citation
 
-##Acknowledgements
+## Acknowledgements
 
