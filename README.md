@@ -27,7 +27,7 @@ methods.
 
 ## Train
 For the CAVE dataset, we first convert the image to *.mat* format, and then generate the *tfrecord* file, which can improve the data reading speed. For the CAVE, Harvard, and NTR2018 data sets, we split the image into 64×64 image blocks without any data augmentation.
-Unlike the normalization of natural images, we normalize each spectrum of each image to 0 to 1, because some spectral values are very close. You can download the *tfrecord* file of CAVE dataset from [BaiduPan](https://pan.baidu.com/s/1g2GZeq16d6l1mTjzs_SwHg), the file extraction code is "asd4".
+Unlike the normalization of natural images, we normalize each spectrum of each image to 0 to 1, because some spectral values are very close. You can download the *tfrecord* file of CAVE dataset from [BaiduPan](https://pan.baidu.com/s/17MbNq2sffgI_jbdBuuj6XA), the file extraction code is "psm1".
 ## Test
 At the time of testing, we also first converted the image into a tfrecord file. When calculating PSNR, SSIM, SAM, and ERGAS, we used the same code as DHSIS（Deep Hyperspectral Image Sharpening）, here we thank the code provided by Renwei Dian.
 ## Results
