@@ -1,8 +1,9 @@
 # Deep-Blind-Hyperspectral-Image-Fusion
 
-This repository is for DBIN introduced in the following paper：
+This repository is for DBIN and EDBIN introduced in the following papers：
 
 [1] Wu Wang, Weihong Zeng, Yue Huang, Xinghao Ding and John Paisley, "Deep Blind Hyperspectral Image Fusion", ICCV 2019
+[2] Wu Wang, Weihong Zeng, Liyan Sun, Ronghui Zhan, Yue Huang, and Xinghao Ding, "Enhanced Deep Blind Hyperspectral Image Fusion", TNNLS 2021
 
 The code is built on Tensorflow and tested on Ubuntu 14.04/16.04 environment (Python3.6, CUDA8.0, cuDNN5.1) with 1080Ti GPUs.
 
@@ -33,6 +34,14 @@ At the time of testing, we also first converted the image into a tfrecord file. 
 ## Results
  ![Image text](https://github.com/wwhappylife/Deep-Blind-Hyperspectral-Image-Fusion/blob/master/image_folder/CAVE.png)
 ## Citation
+Wang, W.; Zeng, W.; Huang, Y.; Ding, X.; and Paisley, J.
+2019. Deep Blind Hyperspectral Image Fusion. In Proceedings
+of the IEEE International Conference on Computer Vision,
+4150–4159.
 
+Wang, W.; Fu, X.; Zeng, W.; Sun, L.; Zhan, R.; Huang, Y.;
+and Ding, X. 2021. Enhanced Deep Blind Hyperspectral
+Image Fusion. IEEE Transactions on Neural Networks and
+Learning Systems, 1–11
 ## Acknowledgements
 
