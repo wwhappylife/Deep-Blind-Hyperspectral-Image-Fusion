@@ -39,7 +39,7 @@ At the time of testing, we also first converted the image into a tfrecord file. 
  
  ![Image text](https://github.com/wwhappylife/Deep-Blind-Hyperspectral-Image-Fusion/blob/master/edbin_ps.png)
 ## Thanks
-Our implementation of CARAFE is based on the pytorch version of [XiaLiPKU](https://github.com/XiaLiPKU/CARAFE)， thanks for their wonderful work. The spectral normlization is based on the implementation of [taki0112](https://github.com/taki0112/Spectral_Normalization-Tensorflow)
+Our implementation of CARAFE is based on the pytorch version of [XiaLiPKU](https://github.com/XiaLiPKU/CARAFE)， thanks for their wonderful work. The spectral normlization is based on the implementation of [taki0112](https://github.com/taki0112/Spectral_Normalization-Tensorflow). We have verified that SN is beneficial to both supervised and unsupervised HIF.
 ## Citation
 Wang, W.; Zeng, W.; Huang, Y.; Ding, X.; and Paisley, J.
 2019. Deep Blind Hyperspectral Image Fusion. In Proceedings
