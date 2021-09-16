@@ -6,7 +6,7 @@ This repository is for DBIN and EDBIN introduced in the following papers：
 
 [2] Wu Wang, Weihong Zeng, Liyan Sun, Ronghui Zhan, Yue Huang, and Xinghao Ding, "Enhanced Deep Blind Hyperspectral Image Fusion", TNNLS 2021 (The code of EDBIN will be available soon）
 
-The code is built on Tensorflow and tested on Ubuntu 14.04/16.04 environment (Python3.6, CUDA8.0, cuDNN5.1) with 1080Ti GPUs.
+The code is built on Tensorflow and tested on Ubuntu 14.04/16.04 environment (Python3.6, CUDA8.0, cuDNN5.1) with 1080Ti GPUs. If you have any issues, please feel free to contact me. My mail : 23320170155546@stu.xmu.edu.cn
 
 ## Introduction
 
